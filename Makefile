@@ -1,5 +1,5 @@
 all:
-	swig -go -cgo -c++ -intgosize 64 -I$(EIGEN_PATH) -v eigon.i
+	swig -go -cgo -c++ -intgosize 64 -I./eigen -v eigon.i
 	#swig -python -c++ -I$(EIGEN_PATH) -v eigon.i
 
 clean:
